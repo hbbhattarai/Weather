@@ -6,18 +6,15 @@
         <v-toolbar-title>Learing Nuxt</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-          <v-btn flat>
+          <v-btn>
             <n-link to="/weather-app">Weather App</n-link>
           </v-btn>
         </v-toolbar-items>
       </v-toolbar>
     
     <transition>
-      <v-content>
-        <nuxt />
 
-      </v-content>
-      
+        <nuxt /> 
     </transition>
     </v-content>
   </v-app>
